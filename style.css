@@ -116,13 +116,14 @@ header .btn-mobile{
     display: flex;
     justify-content: space-between;
 }
-#about .container .title{
+#about .container .title {
     width: 90%;
+    max-width: 800px; 
     height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     padding: 0 60px;
 }
@@ -290,10 +291,11 @@ header .btn-mobile{
     display: flex;
     flex-direction: column;
     color: #fff;
+    margin-inline: auto;
 }
 #contact .content-contact .contact-left h1{
     font-size: 2rem;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 #contact .content-contact .linha{
     width: 350px;
@@ -305,42 +307,13 @@ header .btn-mobile{
 #contact .content-contact .contact-left ion-icon{
     font-size: 2rem;
     padding: 20px 0;
+    text-align: center;
 }
 #contact .content-contact .contact-left span{
     font-size: 1.2rem;
     padding: 5px 0;
 }
-#contact .content-contact .contact-right{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-}
-#contact .content-contact .contact-right h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-#contact .content-contact .contact-right input[type=email],
-#contact .content-contact .contact-right input[type=text]{
-    border-radius: 20px;
-    border: none;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    outline: none;
-}
-#contact .content-contact .contact-right textarea{
-    width: 100%;
-    height: 120px;
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    outline: none;
-    padding: 15px 20px;
-}
+
 /*===== Footer =====*/
 footer{
     width: 100%;
